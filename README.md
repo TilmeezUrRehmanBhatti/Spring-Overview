@@ -9,9 +9,13 @@
 + Provides a large number of helper classes ... make things easier
 
 **What About J2EE???**  
-<img src="inkdrop://file:3su59w4iK" width = 600 />
 
-<img src="inkdrop://file:wjSsYm1n-" width = 600 />
+
+<img src="https://user-images.githubusercontent.com/80107049/185346887-1ac8684c-e23e-4947-b6bb-a02f501c927b.png" width = 600 />
+
+
+
+<img src="https://user-images.githubusercontent.com/80107049/185347059-413ee04a-3328-4b7d-9da2-a1c8cab165d7.png" width = 600 />
 
 + **JMS**- Java Message Service
 + **RMI** - Remote Method Invocation
@@ -32,8 +36,7 @@
 + Poor Performance of Entity Beans
 
 
-
-   <img src="inkdrop://file:KUCPndZuf" width = 100/>
+<img src="https://user-images.githubusercontent.com/80107049/185347237-8f53d987-10d7-4b10-b82a-7d482dadc2fa.png" width = 100/>
 
 **J2EE Development without EJB**
 + Rod Johnson
@@ -41,7 +44,8 @@
 + Book: J2EE Development without EJB, Wrox Press
 + Book: Java Development with Spring Framework, Wrox Press
 
-![clipboard.png](inkdrop://file:1DqHEG0QF)
+![image](https://user-images.githubusercontent.com/80107049/185347322-675992cf-60d3-4280-8e50-096d90933345.png)
+
 
 **Spring 5**
 + Update minimum requirements for Java 8 or higher
@@ -59,7 +63,8 @@
 + Declarative programming with Aspect-Oriented-Programming (AOP)
 + Minimize boilerplate Java code
 
-![clipboard.png](inkdrop://file:Xoj6Xo4XV)
+![image](https://user-images.githubusercontent.com/80107049/185347449-300edb64-e936-44e7-bdf4-05a6fbdcb5e5.png)
+
 
 
 **What are Spring "Projects"**
@@ -77,7 +82,8 @@ The approach of outsourcing the construction and management of objects.
 
 **Coding Scenario**
 
-<img src="inkdrop://file:Nl5bBUoSr" width = 500 />    
+
+<img src="https://user-images.githubusercontent.com/80107049/185347531-d04c6a58-4e4a-4da5-8780-8b7a1745e917.png" width = 500 />    
 
 + App should be configurable
 + Easily change the coach for another sport
@@ -94,12 +100,13 @@ The approach of outsourcing the construction and management of objects.
 
 _Spring Container_
 
-<img src="inkdrop://file:1f03z31Le" width = 600 />
+<img src="https://user-images.githubusercontent.com/80107049/185347703-1403e853-cde4-440d-81d9-6e92876e5240.png" width = 600 />
 
 + Spring provides an object factory, so application talk to spring.
 + Based on a configuration file or annotation, Spring will give the appropriate implementation.
 
-<img src="inkdrop://file:CyO21iKuv" width = 200 />
+
+<img src="https://user-images.githubusercontent.com/80107049/185347804-7693eedc-7229-4d60-af8f-729e5d52d910.png" width = 200 />
 
 + Primary functions
     + Create and manage objects (Inversion of Control)
@@ -156,7 +163,8 @@ ClassPathXmlApplicationContext context =
 // retrieve beans from spring container
 Coach theCoach = context.getBean("myCoach", Coach.class);
 ```
-<img src="inkdrop://file:H7M-rfUKw" width = 300 />
+
+<img src="https://user-images.githubusercontent.com/80107049/185348017-06a853c1-1024-48f2-aa87-f1bf05d76d2c.png" width = 300 />
 
 **What is a Spring Bean?**
 
@@ -215,13 +223,12 @@ Source:  <http://docs.spring.io/spring-framework/docs/current/javadoc-api/org/sp
 
 
 **Car factory**
-.    
-<img src="inkdrop://file:FS2gMoq8J" width= 400/>
+
+<img src="https://user-images.githubusercontent.com/80107049/185348181-82ce9d72-09e3-4ac4-8397-78a0e7b85057.png" width= 400/>
 
 _Spring Container_
 
-
- <img src="inkdrop://file:7xrUJup2a" width = 600 />
+ <img src="https://user-images.githubusercontent.com/80107049/185348287-6fb16244-edaa-4e5f-97a0-87edba8d0a19.png" width = 600 />
 
 
 + Primary functions
@@ -285,7 +292,7 @@ public class BaseballCoach implements Coach {
 }
 ```
 
-<img src="inkdrop://file:nTbbVOerl" width=300 />
+<img src="https://user-images.githubusercontent.com/80107049/185348452-3767ec38-b8ab-4abf-bcf4-d35d5418c61e.png" width=300 />
 
 
 *Step 3:Configure the dependency injection in Spring config file*
@@ -302,12 +309,12 @@ File:applicationContext.XML
 </bean>
 ```
 
-<img src="inkdrop://file:811Sc0rKG" width=500 />
+<img src="https://user-images.githubusercontent.com/80107049/185348552-51fa0734-191c-444d-abf9-798b048a4d3a.png" width=500 />
 
 
 **How Spring Processes your Config File**
 
-![clipboard.png](inkdrop://file:XtKFb30Hn)
+![image](https://user-images.githubusercontent.com/80107049/185348645-f2c3325e-936f-4fca-a384-c1c87c53ce97.png)
 
 ### Setter Injection
 
@@ -319,26 +326,26 @@ File:applicationContext.XML
 
 *Step 1:Create setter method(s) n your class for injection*    
 File:CricketCoach.java   
-<img src="inkdrop://file:K9BQKRk-E" width=500 />
+<img src="https://user-images.githubusercontent.com/80107049/185348724-cc0dccd5-f93e-4444-8262-5de5c6a3b2e6.png" width=500 />
 
 *Step 2: Configure the dependency injection in Spring config file*
 
 File:applicationContext.xml   
-<img src="inkdrop://file:2sbVJOu8x" width=500 />
+<img src="https://user-images.githubusercontent.com/80107049/185348812-e59fbf8a-2a2e-4fb8-a806-8f8ab3232216.png" width=500 />
 
 
 **Call setter method on Java class**
 
-<img src="inkdrop://file:mTP9PHNBc" width=500 />
+<img src="https://user-images.githubusercontent.com/80107049/185348905-c21eec10-4c90-48f3-94ed-a7eef628cd54.png" width=500 />
 
 **How Spring Processes your Config File**
 
-<img src="inkdrop://file:LHA2q8wfS" width=500 />
+<img src="https://user-images.githubusercontent.com/80107049/185349028-93a0c172-f43e-4b43-9823-c44bd0237b7d.png" width=500 />
 
 
 ## Injecting Literal Values
 
-<img src="inkdrop://file:Yp_T4ttcG" width=300 />
+<img src="https://user-images.githubusercontent.com/80107049/185349112-1f46377e-d259-4f4b-b0be-e87d206d50ca.png" width=300 />
 
 **Development Process**
 1. Create setter method(s) in your class for injections
@@ -424,7 +431,7 @@ The bottom line is it depends on how you retrieve the object and assign it ... t
 
 ## Injecting Values from a Properties File
 
-<img src="inkdrop://file:hg3V_SEIY" width=300 />
+<img src="https://user-images.githubusercontent.com/80107049/185349259-bddc2a45-b9f8-47f9-8c5c-b998b0bd2382.png" width=300 />
 
 **Development Process**
 1. Create Properties File
@@ -447,8 +454,8 @@ File:applicationContext.xml
 ```
 
 _Step 3: Reference Values from Properties File_    
-File:applicationContext.xml     
-<img src="inkdrop://file:BRjgi7TPm" width=300 />
+File:applicationContext.xml   
+<img src="https://user-images.githubusercontent.com/80107049/185349494-cf443faa-03b7-47e7-af9f-83fe0e32c6d9.png" width=600 />
 
 # Spring Bean Scopes and Lifecycle
 
@@ -476,7 +483,7 @@ File:applicationContext.xml
 + All requests for the bean
     + Will return a SHARED reference to the SAME bean
 
-<img src="inkdrop://file:ebLihTjsi" width=400 />
+<img src="https://user-images.githubusercontent.com/80107049/185349663-2588180c-7e29-44bf-9628-955b038d9bf3.png" width=500 />
 
 **Explicitly Specify Bean Scope**
 ```XML
@@ -514,14 +521,15 @@ File:applicationContext.xml
   </bean>
 </beans>
 ```
-<img src="inkdrop://file:hzvYegvXW" width=400 />
+
+<img src="https://user-images.githubusercontent.com/80107049/185349931-1a45223d-6163-44bc-8161-575e1dbb33eb.png" width=500 />
 
 + Prototype is good for keeping track of stateful data.
 + Prototype is gonna create a new bean for each request for that component or that object.
 
 ## Bean Lifecycle
 
-<img src="inkdrop://file:y3XnpOfBg" width=400 />
+<img src="https://user-images.githubusercontent.com/80107049/185350039-c05f7d97-fd6f-479e-b536-bcad5776914b.png" width=600 />
 
 **Bean Lifecycle Method/Hooks**
 + You can add custom code during **bean initialization**
