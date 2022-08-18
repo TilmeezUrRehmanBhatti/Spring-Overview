@@ -2,7 +2,7 @@ package com.tilmeez.springdemo;
 
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
-public class BeanScopeDemoApp {
+public class BeanLifeCycleDemoApp {
     public static void main(String[] args) {
 
         // load the spring configuration file

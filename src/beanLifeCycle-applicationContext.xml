@@ -14,7 +14,8 @@
 
     <bean id="myCoach"
           class="com.tilmeez.springdemo.TrackCoach"
-          scope="prototype">
+          init-method="doMyStartupStuff"
+          destroy-method="doMyCleanUpStuff">
 
         <!-- set up construction injection -->
         <constructor-arg ref="myFortuneService"/>
